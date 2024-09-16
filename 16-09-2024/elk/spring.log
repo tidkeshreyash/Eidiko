@@ -1,0 +1,130 @@
+2024-09-16T15:04:40.974+05:30  INFO 32720 --- [elk] [main] com.example.elk.ElkApplicationTests      : Starting ElkApplicationTests using Java 21.0.2 with PID 32720 (started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T15:04:40.979+05:30  INFO 32720 --- [elk] [main] com.example.elk.ElkApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T15:04:42.589+05:30  INFO 32720 --- [elk] [main] com.example.elk.ElkApplicationTests      : Started ElkApplicationTests in 2.063 seconds (process running for 4.102)
+2024-09-16T15:14:59.691+05:30  INFO 12528 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 12528 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T15:14:59.693+05:30  INFO 12528 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T15:15:00.503+05:30  INFO 12528 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T15:15:00.514+05:30  INFO 12528 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T15:15:00.515+05:30  INFO 12528 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T15:15:00.556+05:30  INFO 12528 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T15:15:00.557+05:30  INFO 12528 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 828 ms
+2024-09-16T15:15:00.879+05:30  WARN 12528 --- [elk] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-16T15:15:00.901+05:30  INFO 12528 --- [elk] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-16T15:15:00.914+05:30 ERROR 12528 --- [elk] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-16T15:15:19.784+05:30  INFO 22944 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 22944 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T15:15:19.786+05:30  INFO 22944 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T15:15:20.534+05:30  INFO 22944 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9096 (http)
+2024-09-16T15:15:20.544+05:30  INFO 22944 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T15:15:20.544+05:30  INFO 22944 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T15:15:20.608+05:30  INFO 22944 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T15:15:20.668+05:30  INFO 22944 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
+2024-09-16T15:15:21.028+05:30  INFO 22944 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9096 (http) with context path '/'
+2024-09-16T15:15:21.035+05:30  INFO 22944 --- [elk] [main] com.example.elk.ElkApplication           : Started ElkApplication in 1.642 seconds (process running for 1.963)
+2024-09-16T15:19:32.654+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T15:19:32.654+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T15:19:32.654+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-16T15:19:32.689+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-1] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:12:06.357+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-5] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:14:24.394+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-8] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:14:27.930+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-9] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:18:39.554+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-2] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:18:40.120+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-3] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:18:40.290+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-4] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:18:40.456+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-5] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:18:40.608+05:30  INFO 22944 --- [elk] [http-nio-9096-exec-6] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:37:03.136+05:30  INFO 332 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 332 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T16:37:03.138+05:30  INFO 332 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T16:37:03.943+05:30  INFO 332 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9096 (http)
+2024-09-16T16:37:03.955+05:30  INFO 332 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T16:37:03.956+05:30  INFO 332 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T16:37:04.004+05:30  INFO 332 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T16:37:04.004+05:30  INFO 332 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 824 ms
+2024-09-16T16:37:04.310+05:30  INFO 332 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9096 (http) with context path '/'
+2024-09-16T16:37:04.317+05:30  INFO 332 --- [elk] [main] com.example.elk.ElkApplication           : Started ElkApplication in 1.56 seconds (process running for 1.851)
+2024-09-16T16:37:44.368+05:30  INFO 332 --- [elk] [http-nio-9096-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T16:37:44.368+05:30  INFO 332 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T16:37:44.369+05:30  INFO 332 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-16T16:37:44.392+05:30  INFO 332 --- [elk] [http-nio-9096-exec-1] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:39:40.722+05:30  INFO 27196 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 27196 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T16:39:40.725+05:30  INFO 27196 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T16:39:41.545+05:30  INFO 27196 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9096 (http)
+2024-09-16T16:39:41.560+05:30  INFO 27196 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T16:39:41.561+05:30  INFO 27196 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T16:39:41.622+05:30  INFO 27196 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T16:39:41.622+05:30  INFO 27196 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2024-09-16T16:39:41.933+05:30  INFO 27196 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9096 (http) with context path '/'
+2024-09-16T16:39:41.944+05:30  INFO 27196 --- [elk] [main] com.example.elk.ElkApplication           : Started ElkApplication in 1.629 seconds (process running for 1.935)
+2024-09-16T16:39:50.243+05:30  INFO 27196 --- [elk] [http-nio-9096-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T16:39:50.243+05:30  INFO 27196 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T16:39:50.244+05:30  INFO 27196 --- [elk] [http-nio-9096-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-16T16:39:50.266+05:30  INFO 27196 --- [elk] [http-nio-9096-exec-1] com.example.elk.Controller               : Echo Triggered
+2024-09-16T16:59:45.351+05:30  INFO 6960 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 6960 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T16:59:45.353+05:30  INFO 6960 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T16:59:46.134+05:30  INFO 6960 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9096 (http)
+2024-09-16T16:59:46.145+05:30  INFO 6960 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T16:59:46.145+05:30  INFO 6960 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T16:59:46.201+05:30  INFO 6960 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T16:59:46.201+05:30  INFO 6960 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 809 ms
+2024-09-16T16:59:46.248+05:30  WARN 6960 --- [elk] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controller' defined in file [C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes\com\example\elk\Controller.class]: Failed to instantiate [com.example.elk.Controller]: Constructor threw exception
+2024-09-16T16:59:46.250+05:30  INFO 6960 --- [elk] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-16T16:59:46.260+05:30  INFO 6960 --- [elk] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-16T16:59:46.274+05:30 ERROR 6960 --- [elk] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controller' defined in file [C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes\com\example\elk\Controller.class]: Failed to instantiate [com.example.elk.Controller]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.example.elk.ElkApplication.main(ElkApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.elk.Controller]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 17 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.example.elk.Controller.<init>(Controller.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 19 common frames omitted
+
+2024-09-16T17:41:32.905+05:30  INFO 21872 --- [elk] [main] com.example.elk.ElkApplication           : Starting ElkApplication using Java 21.0.2 with PID 21872 (C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk\target\classes started by syste in C:\Users\syste\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\elk)
+2024-09-16T17:41:32.907+05:30  INFO 21872 --- [elk] [main] com.example.elk.ElkApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T17:41:33.690+05:30  INFO 21872 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9096 (http)
+2024-09-16T17:41:33.701+05:30  INFO 21872 --- [elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T17:41:33.702+05:30  INFO 21872 --- [elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T17:41:33.742+05:30  INFO 21872 --- [elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T17:41:33.742+05:30  INFO 21872 --- [elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2024-09-16T17:41:34.056+05:30  INFO 21872 --- [elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9096 (http) with context path '/'
+2024-09-16T17:41:34.062+05:30  INFO 21872 --- [elk] [main] com.example.elk.ElkApplication           : Started ElkApplication in 1.548 seconds (process running for 1.849)
